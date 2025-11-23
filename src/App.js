@@ -98,7 +98,7 @@ const HomePage = () => (
 
 function App() {
   return (
-    <Router>
+    <Router basename="/reactiveintrests">
       <Header
         fontFamily="'Great Vibes', cursive"
         backgroundPic="../images/Panorama.jpg"
