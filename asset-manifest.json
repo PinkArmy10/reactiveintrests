@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactiveintrests/static/css/main.0188005f.css",
+    "main.js": "/reactiveintrests/static/js/main.f2f013d3.js",
+    "index.html": "/reactiveintrests/index.html",
+    "main.0188005f.css.map": "/reactiveintrests/static/css/main.0188005f.css.map",
+    "main.f2f013d3.js.map": "/reactiveintrests/static/js/main.f2f013d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0188005f.css",
+    "static/js/main.f2f013d3.js"
+  ]
+}
