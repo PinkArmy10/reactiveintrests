@@ -27,7 +27,7 @@ Built With
 
     JavaScript (ES6+)
 
-    Create React App (bootstrapped)
+    Create React App
 
 Getting Started
 Prerequisites
@@ -40,47 +40,20 @@ Installation
 
 Clone this repository (or download the source):
 
-    bash
     git clone https://github.com/your-username/hobbies-react-app.git
     cd hobbies-react-app
 
 Install dependencies including React Router and Tailwind CSS:
 
-    bash
     npm install react-router-dom
-    npm install -D tailwindcss postcss autoprefixer
+    npm install -D tailwindcss@3 postcss autoprefixer
     npx tailwindcss init -p
 
-Configure Tailwind:
-
-In tailwind.config.js, ensure this:
-
-    js
-    module.exports = {
-    content: ["./src/**/*.{js,jsx,ts,tsx}"],
-    theme: {
-        extend: {},
-    },
-    plugins: [],
-    };
-
-In src/index.css, add:
-
-    css
-    @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
-
-Verify Tailwind's CSS import is in src/index.js or src/App.js:
-
-    js
-    import './index.css';
 
 Running the App
 
 Start the development server:
 
-    bash
     npm start
 
 Open http://localhost:3000 in a web browser to view the app. The page hot-reloads on changes.
