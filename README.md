@@ -38,31 +38,31 @@ Prerequisites
 
 Installation
 
-    Clone this repository (or download the source):
+Clone this repository (or download the source):
 
-bash
-git clone https://github.com/your-username/hobbies-react-app.git
-cd hobbies-react-app
+    bash
+    git clone https://github.com/your-username/hobbies-react-app.git
+    cd hobbies-react-app
 
 Install dependencies including React Router and Tailwind CSS:
 
-bash
-npm install react-router-dom
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+    bash
+    npm install react-router-dom
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
 
 Configure Tailwind:
 
-    In tailwind.config.js, ensure this:
+In tailwind.config.js, ensure this:
 
-js
-module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
+    js
+    module.exports = {
+    content: ["./src/**/*.{js,jsx,ts,tsx}"],
+    theme: {
+        extend: {},
+    },
+    plugins: [],
+    };
 
 In src/index.css, add:
 
@@ -80,8 +80,8 @@ Running the App
 
 Start the development server:
 
-bash
-npm start
+    bash
+    npm start
 
 Open http://localhost:3000 in a web browser to view the app. The page hot-reloads on changes.
 Available Scripts
@@ -116,13 +116,6 @@ Notes
 
     The newsletter sign-up does not include backend integration by default and would need further extension for production use.
 
-Learn More
-
-    Read the React documentation
-
-    Explore the React Router documentation
-
-    Learn about Tailwind CSS
 
 License
 
